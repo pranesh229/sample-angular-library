@@ -24,6 +24,12 @@
       ],
       "sample/*": [
         "dist/sample/*"
+      ],
+      "sample-library": [
+        "dist/sample-library"
+      ],
+      "sample-library/*": [
+        "dist/sample-library/*"
       ]
     }
   },

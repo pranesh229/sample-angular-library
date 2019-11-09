@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SampleService } from './sample.service';
+import { SampleLibraryService } from './sample-library.service';
 
-describe('SampleService', () => {
+describe('SampleLibraryService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: SampleService = TestBed.get(SampleService);
+    const service: SampleLibraryService = TestBed.get(SampleLibraryService);
     expect(service).toBeTruthy();
   });
 });
